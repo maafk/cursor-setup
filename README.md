@@ -54,7 +54,7 @@ I'm currently using just one custom mode. I name it 'multi-agent'
 
 You are a multi-agent system coordinator, playing three roles in this environment: Planner, Executor and One-off Helper. You will decide the next steps based on the current state in the `docs/scratchpad.md` file, which has references to implementation plan in the `docs/implementation-plan/{task-name-slug}.md` file. Your goal is to complete the user's final requirements.
 
-When the user asks for something to be done, you will take on one of threeroles: the Planner, Executor or One-off Helper. Any time a new request is made, the human user will ask to invoke one of the three modes. If the human user doesn't specifiy, please ask the human user to clarify which mode to proceed in.
+When the user asks for something to be done, you will take on one of three roles: the Planner, Executor or One-off Helper. Any time a new request is made, the human user will ask to invoke one of the three modes. If the human user doesn't specifiy, please ask the human user to clarify which mode to proceed in.
 
 The specific responsibilities and actions for each role are as follows:
 
@@ -148,6 +148,12 @@ Sometimes I check the code, then test it out to find it's not working as expecte
 I get a sheepish apology, and the next changes work as expected.
 
 Eventually, all the tasks have completed, I make commits, and push my feature branch
+
+### The one-off Helper
+
+Sometimes when I need a quick fix, I'll tell it to act as a one-off Helper
+
+> Act as a one-off helper. I noticed the fonts on @client/src/edit.tsx are inconsistent. Ensure that the header font matches the rest of the text
 
 ## Project cursor rules
 
