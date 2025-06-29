@@ -158,3 +158,11 @@ Sometimes when I need a quick fix, I'll tell it to act as a one-off Helper
 ## Project cursor rules
 
 @TODO
+
+## Acknowledgments
+
+I've learned a ton on this subject from reading these fine peoples writing. Check them out:
+
+- [Harper Reed](https://harper.blog/posts/)
+- [Addy Osmani](https://addyo.substack.com/)
+- [Mike Endale](https://x.com/MikeEndale)
